@@ -28,19 +28,15 @@ task :install do
   end
 end
 
-desc "Create Projects structure"
-task :setup => :install do
-  puts "Creating ~/Projects directory"
-  system %Q{mkdir -p ~/Projects}
-  
-  puts "Run `source ~/.bash_profile` to apply new settings"
-end
-
 desc "Set up RVM"
 task :rvm => ["rvm:set_default"]
 
 namespace :rvm do
-  task :set_default => ["187:setup", "191:setup"] do
+  task :install do
+    system %Q{rvm-install}
+  end
+  
+  task :set_default => [:install, "187:setup", "191:setup"] do
     puts "Making ruby 1.8.7 default"
     system %Q{rvm 1.8.7 --default}
   end
