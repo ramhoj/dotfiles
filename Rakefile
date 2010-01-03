@@ -29,6 +29,12 @@ task :install do
   end
 end
 
+desc "Create Projects structure"
+task :setup => :install do
+  puts "Creating ~/Projects directory"
+  system %Q{mkdir -p ~/Projects}
+end
+
 def replace_file(file)
   system %Q{rm "$HOME/.#{file}"}
   link_file(file)
