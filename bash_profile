@@ -3,6 +3,8 @@ source ~/.bash/completions
 source ~/.bash/paths
 source ~/.bash/config
 
+if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
+
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi

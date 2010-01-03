@@ -4,7 +4,7 @@ alias ..='cd ..'
 # ls
 alias ls="ls -F"
 alias l="ls -lAh"
-alias ll="ls -l"
+alias ll="ls -GhlF"
 alias la='ls -A'
 
 # git
@@ -27,6 +27,10 @@ alias tlog='tail -f log/development.log'
 alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+
+# textmate
+alias e="mate ."
+alias er="mate app config db lib public spec"
 
 # commands starting with % for pasting from web
 alias %=' '
