@@ -2,8 +2,12 @@
 	name = Your Name
 	email = name@elabs.se
 [alias]
+	ci = commit
 	co = checkout
+	st = status
+	automerge = !git config branch.master.remote origin && git config branch.master.merge refs/heads/master
 [color]
+	interactive = auto
 	diff = auto
 	status = auto
 	branch = auto
