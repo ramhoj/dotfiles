@@ -1,9 +1,10 @@
 require 'rake'
 
+desc "Install dot files in home directory"
 task :install do
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README LICENSE].include? file
+    next if %w[Rakefile README LICENSE install_rvm.sh rvm].include? file
     
     if File.exist?(File.join(ENV['HOME'], ".#{file}"))
       if replace_all
@@ -29,38 +30,15 @@ task :install do
 end
 
 desc "Set up RVM"
-task :rvm => ["rvm:set_default"]
+task :rvm => ["rvm:setup"]
 
 namespace :rvm do
   task :install do
     system %Q{rvm-install}
   end
   
-  task :set_default => [:install, "187:setup", "191:setup"] do
-    puts "Making ruby 1.8.7 default"
-    system %Q{rvm 1.8.7 --default}
-  end
-  
-  namespace "187" do
-    task :install do
-      system %Q{rvm install 1.8.7}
-    end
-    
-    desc "Install 1.8.7 and default gems"
-    task :setup => [:install] do
-      system %Q{rvm 1.8.7; rvm gems load rvm/default.gems}
-    end
-  end
-  
-  namespace "191" do
-    task :install do
-      system %Q{rvm install 1.9.1}
-    end
-
-    desc "Install 1.9.1 and default gems"    
-    task :setup => [:install] do
-      system %Q{rvm 1.9.1; rvm gems load rvm/default.gems}
-    end
+  task :setup => [:install] do
+    system %Q{./install_rvm.sh}
   end
 end
 
