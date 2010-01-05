@@ -30,7 +30,7 @@ alias rst='touch tmp/restart.txt'
 
 # textmate
 alias e="mate ."
-alias er="mate app config db lib public spec"
+alias er="mate app config db lib public features spec"
 
 # commands starting with % for pasting from web
 alias %=' '
