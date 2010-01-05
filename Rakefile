@@ -42,6 +42,13 @@ namespace :rvm do
   end
 end
 
+namespace :mongodb do
+  desc "Setup mongo:db as a launchd service so it starts on system start"
+  task :setup do
+    system %Q{sudo ./launchmongo.sh}
+  end
+end
+
 def replace_file(file)
   system %Q{rm "$HOME/.#{file}"}
   link_file(file)
