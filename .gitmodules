@@ -31,6 +31,3 @@
 [submodule "bundles/nerdcommenter"]
 	path = bundles/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "bundles/fuzzyfinder_textmate"]
-	path = bundles/fuzzyfinder_textmate
-	url = git://github.com/sethbc/fuzzyfinder_textmate.git
