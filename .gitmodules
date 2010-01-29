@@ -1,33 +1,33 @@
-[submodule "lib/vim/bundles/vim-rails"]
-	path = lib/vim/bundles/vim-rails
+[submodule "link/vim/bundles/vim-rails"]
+	path = link/vim/bundles/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "lib/vim/bundles/vim-cucumber"]
-	path = lib/vim/bundles/vim-cucumber
+[submodule "link/vim/bundles/vim-cucumber"]
+	path = link/vim/bundles/vim-cucumber
 	url = git://github.com/tpope/vim-cucumber.git
-[submodule "lib/vim/bundles/vim-vividchalk"]
-	path = lib/vim/bundles/vim-vividchalk
+[submodule "link/vim/bundles/vim-vividchalk"]
+	path = link/vim/bundles/vim-vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
-[submodule "lib/vim/bundles/vim-haml"]
-	path = lib/vim/bundles/vim-haml
+[submodule "link/vim/bundles/vim-haml"]
+	path = link/vim/bundles/vim-haml
 	url = git://github.com/tpope/vim-haml.git
-[submodule "lib/vim/bundles/vim-endwise"]
-	path = lib/vim/bundles/vim-endwise
+[submodule "link/vim/bundles/vim-endwise"]
+	path = link/vim/bundles/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
-[submodule "lib/vim/bundles/vim-surround"]
-	path = lib/vim/bundles/vim-surround
+[submodule "link/vim/bundles/vim-surround"]
+	path = link/vim/bundles/vim-surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "lib/vim/bundles/vim-unimpaired"]
-	path = lib/vim/bundles/vim-unimpaired
+[submodule "link/vim/bundles/vim-unimpaired"]
+	path = link/vim/bundles/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "lib/vim/bundles/vim-abolish"]
-	path = lib/vim/bundles/vim-abolish
+[submodule "link/vim/bundles/vim-abolish"]
+	path = link/vim/bundles/vim-abolish
 	url = git://github.com/tpope/vim-abolish.git
-[submodule "lib/vim/bundles/vim-repeat"]
-	path = lib/vim/bundles/vim-repeat
+[submodule "link/vim/bundles/vim-repeat"]
+	path = link/vim/bundles/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "lib/vim/bundles/nerdtree"]
-	path = lib/vim/bundles/nerdtree
+[submodule "link/vim/bundles/nerdtree"]
+	path = link/vim/bundles/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "lib/vim/bundles/nerdcommenter"]
-	path = lib/vim/bundles/nerdcommenter
+[submodule "link/vim/bundles/nerdcommenter"]
+	path = link/vim/bundles/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
