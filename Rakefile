@@ -3,9 +3,7 @@ require 'rake'
 desc "Install dot files in home directory"
 task :install do
   replace_all = false
-  Dir['*'].each do |file|
-    next if %w[Rakefile README LICENSE install_rvm.sh rvm].include? file
-    
+  Dir['lib/*'].each do |file|
     if File.exist?(File.join(ENV['HOME'], ".#{file}"))
       if replace_all
         replace_file(file)
@@ -42,6 +40,13 @@ namespace :rvm do
   end
 end
 
+namespace :mongodb do
+  desc "Setup mongo:db as a launchd service so it starts on system start"
+  task :setup do
+    system %Q{sudo ./launchmongo.sh}
+  end
+end
+
 def replace_file(file)
   system %Q{rm "$HOME/.#{file}"}
   link_file(file)
@@ -52,7 +57,7 @@ def link_file(file)
     copy_file(file)
   else
     puts "linking ~/.#{file}"
-    system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
+    system %Q{ln -fs "$PWD/#{file}" "$HOME/.#{file}"}
   end
 end
 
