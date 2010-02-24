@@ -32,5 +32,9 @@ alias rst='touch tmp/restart.txt'
 alias e="mate ."
 alias er="mate app config db lib public features spec"
 
+# servers
+alias empire="ssh empire.newcode.se"
+alias gaia="ssh gaia.elabs.se"
+
 # commands starting with % for pasting from web
 alias %=' '
