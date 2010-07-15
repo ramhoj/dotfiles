@@ -35,6 +35,16 @@ class Object
   end
 end
 
+def _cp(kopimi = Readline::HISTORY.entries[-2], options = {})
+  if kopimi.respond_to?(:join) && !options[:to_a]
+    kopimi = kopimi.map{|i| ":#{i.to_s}" } if options.delete(:to_sym)
+    delicious = kopimi.join(", ")
+  elsif kopimi.respond_to?(:inspect)
+    delicious = kopimi.is_a?(String) ? kopimi : kopimi.inspect
+  end
+  IO.popen('pbcopy', 'w') { |io| io.write(delicious) }
+end
+
 def copy(str)
   IO.popen('pbcopy', 'w') { |f| f << str.to_s }
 end
