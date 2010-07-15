@@ -11,3 +11,7 @@ function railsapp {
 
 # misc
 alias reload='. ~/.bash_profile'
+
+# textmate
+# alias ett='mate `ls -I tmp -I vendor -I log`'
+alias etr="mate app config lib db schema public spec test Rakefile Capfile Gemfile Gemfile.lock README stories features"
