@@ -27,6 +27,13 @@ alias tlog='tail -f log/development.log'
 alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+alias rs='rake spec RAILS_ENV=test'
+alias rss='rake spec RAILS_ENV=test; rake cucumber'
+
+alias r='rails'
+alias rc='rails console'
+alias rs='rails server'
+alias rg='rails generate'
 
 # textmate
 alias e="mate ."
