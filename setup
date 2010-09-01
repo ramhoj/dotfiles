@@ -1,5 +1,5 @@
 #/bin/bash
 
-setup_dotfiles
-setup_rvm
-setup_mongo
+./setup_dotfiles
+./setup_rvm
+./setup_mongo
