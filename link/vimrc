@@ -27,7 +27,7 @@ set numberwidth=3
 set splitbelow
 
 " Open new vertical split windows to the right
-set splitright   
+set splitright
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
@@ -56,4 +56,8 @@ function! <SID>InsertTabWrapper(direction)
     return "\<C-n>"
   endif
 endfunction
+
+autocmd BufWritePre * :%s/\s\+$//e
+
+let mapleader = "-"
 
