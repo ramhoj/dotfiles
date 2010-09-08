@@ -34,3 +34,6 @@
 [submodule "link/vim/bundles/vim-coffee-script"]
 	path = link/vim/bundles/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "link/vim/bundles/vim-indent-object"]
+	path = link/vim/bundles/vim-indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object.git
