@@ -40,3 +40,6 @@
 [submodule "link/vim/bundles/vim-indent-object"]
 	path = link/vim/bundles/vim-indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
+[submodule "link/vim/bundles/vim-rake"]
+	path = link/vim/bundles/vim-rake
+	url = git://github.com/tpope/vim-rake.git
