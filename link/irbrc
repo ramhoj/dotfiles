@@ -54,3 +54,9 @@ def paste
 end
 
 load File.dirname(__FILE__) + '/.railsrc' if $0 == 'irb' && ENV['RAILS_ENV']
+
+if defined? Rails
+  puts "Loading your blueprints..."
+  require Rails.root.join("spec", "blueprints") if File.exists?(Rails.root.join("spec", "blueprints.rb"))
+  require Rails.root.join("spec", "support", "blueprints") if File.exists?(Rails.root.join("spec", "support", "blueprints.rb"))
+end
