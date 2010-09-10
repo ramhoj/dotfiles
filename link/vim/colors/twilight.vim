@@ -112,3 +112,6 @@ hi Search guifg=#606000 guibg=#c0c000 gui=bold
 hi Directory guifg=#dad085 gui=NONE
 hi Error guibg=#602020
 
+"Make invisibles only barely visible, err
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
