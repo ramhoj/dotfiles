@@ -43,3 +43,6 @@
 [submodule "link/vim/bundles/vim-rake"]
 	path = link/vim/bundles/vim-rake
 	url = git://github.com/tpope/vim-rake.git
+[submodule "link/vim/bundles/vim-fugitive"]
+	path = link/vim/bundles/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
