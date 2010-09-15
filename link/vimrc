@@ -65,5 +65,27 @@ set listchars=tab:▸\ ,eol:¬
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+" leader is set to the dash key, as it is much friendlier on a swedish
+" keyboard
 let mapleader = "-"
+
+" don't ever create swap files, they're annoying!
+set nobackup
+set noswapfile
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+" highlight search results
+set hlsearch
+
+" clear highlighted matches with space
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" remap enter/shift-enter to insert blank lines
+map <S-Enter> O<Esc>
+map <CR> o<Esc>
 
