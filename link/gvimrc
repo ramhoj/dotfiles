@@ -2,7 +2,10 @@ colorscheme twilight
 set guicursor=a:blinkon0
 set guifont=Monaco:h14
 
-nnoremap <D-e> :NERDTree<CR> 
+" Disable toolbar on startup
+set guioptions-=T
+
+nnoremap <D-e> :NERDTree<CR>
 
 " fullscreen maximizes vertically AND horizontally
 set fuoptions=maxvert,maxhorz
