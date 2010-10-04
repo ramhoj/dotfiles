@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby -w
+textmate_bundle_directory = "/Users/#{ENV['USER']}/Library/Application Support/TextMate/Bundles"
+Dir.chdir textmate_bundle_directory
+
+Dir.glob("*").each do |bundle|
+  Dir.chdir bundle
+  puts "Updating: #{bundle}"
+  system('git pull')
+  Dir.chdir textmate_bundle_directory
+end
