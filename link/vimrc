@@ -92,3 +92,7 @@ map <CR> o<Esc>
 " remap backspace/shift-backspace to remove lines
 map <S-BS> kdd
 map <BS> dd
+
+" Maps for jj to act as Esc
+ino jj <esc>
+cno jj <c-c>
