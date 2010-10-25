@@ -29,7 +29,7 @@ let s:white = '#fffedc'
 if version >= 700
   hi CursorLine guibg=#262626
   hi CursorColumn guibg=#262626
-  hi MatchParen guifg=white guibg=#80a090 gui=bold
+  hi MatchParen guifg=white guibg=#3B4942 gui=bold
 
   "Tabpages
   hi TabLine guifg=#a09998 guibg=#202020 gui=underline

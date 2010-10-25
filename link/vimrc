@@ -88,3 +88,10 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " remap enter/shift-enter to insert blank lines
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
+
+" map leader-a to open a vertical split of the alternate file
+map <leader>a :AV<CR>
+
+" Maps for jj to act as Esc
+ino jj <esc>
+cno jj <c-c>
