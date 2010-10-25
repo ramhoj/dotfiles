@@ -88,7 +88,3 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " remap enter/shift-enter to insert blank lines
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
-
-" remap backspace/shift-backspace to remove lines
-map <S-BS> kdd
-map <BS> dd
