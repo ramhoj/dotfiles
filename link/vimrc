@@ -89,10 +89,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
 
-" remap backspace/shift-backspace to remove lines
-map <S-BS> kdd
-map <BS> dd
-
 " map leader-a to open a vertical split of the alternate file
 map <leader>a :AV<CR>
 
