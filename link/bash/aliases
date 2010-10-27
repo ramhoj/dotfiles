@@ -15,3 +15,6 @@ alias reload='. ~/.bash_profile'
 # textmate
 alias etr="mate app config lib db schema public spec test Rakefile Capfile Gemfile Gemfile.lock README stories features"
 alias update_tm_bundles='~/.update_tm_bundles'
+
+# tailing stuff
+alias tails="tail -n 400 -f"
