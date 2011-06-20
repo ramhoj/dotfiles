@@ -13,4 +13,5 @@ echo "RubyAMP installed. Make sure you install the rb-appscript gem in your @glo
 echo " $ rvm gemset use global && gem install rb-appscript"
 git clone git://github.com/drnic/Bundler.tmbundle.git
 git clone git://github.com/aussiegeek/ruby-sass-tmbundle.git 'RubySass.tmbundle'
+git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
 osascript -e 'tell app "TextMate" to reload bundles'
