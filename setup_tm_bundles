@@ -7,10 +7,11 @@ git clone git://github.com/drnic/ruby-tmbundle.git "Ruby.tmbundle"
 git clone git://github.com/rspec/rspec-tmbundle.git "RSpec.tmbundle"
 git clone git://github.com/kswedberg/jquery-tmbundle.git "JavaScript jQuery.tmbundle"
 git clone git://github.com/metavida/apidock-tmbundle.git "APIdock.tmbundle"
-git clone git://github.com/aslakhellesoy/cucumber-tmbundle.git Cucumber.tmbundle
+git clone git://github.com/cucumber/cucumber-tmbundle.git Cucumber.tmbundle
 git clone git://github.com/timcharper/rubyamp.git RubyAMP.tmbundle
 echo "RubyAMP installed. Make sure you install the rb-appscript gem in your @global gemset."
 echo " $ rvm gemset use global && gem install rb-appscript"
 git clone git://github.com/drnic/Bundler.tmbundle.git
 git clone git://github.com/aussiegeek/ruby-sass-tmbundle.git 'RubySass.tmbundle'
+git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
 osascript -e 'tell app "TextMate" to reload bundles'
