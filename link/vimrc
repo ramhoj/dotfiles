@@ -64,6 +64,7 @@ nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufRead *.json :set ft=javascript
 
 " leader is set to the dash key, as it is much friendlier on a swedish
 " keyboard
