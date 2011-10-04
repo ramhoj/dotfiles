@@ -1,6 +1,8 @@
-colorscheme twilight
+colorscheme solarized
+syntax enable
 set guicursor=a:blinkon0
 set guifont=Monaco:h12
+set background=light
 
 " Disable toolbar on startup
 set guioptions-=T
