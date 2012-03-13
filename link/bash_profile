@@ -5,6 +5,8 @@ source ~/.bash/config
 
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
+[[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
+
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
