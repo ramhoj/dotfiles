@@ -55,6 +55,6 @@
 [submodule "link/vim/bundles/vim-slim"]
 	path = link/vim/bundles/vim-slim
 	url = git://github.com/bbommarito/vim-slim.git
-[submodule "link/vim/bundles/vim-mustache.git"]
-	path = link/vim/bundles/vim-mustache.git
-	url = git://github.com/itspriddle/vim-mustache.git
+[submodule "link/vim/bundles/vim-mustache"]
+  path = link/vim/bundles/vim-mustache.git
+  url = git://github.com/juvenn/mustache.vim.git
