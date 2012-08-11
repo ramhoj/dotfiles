@@ -36,12 +36,6 @@ nnoremap Y y$
 " don't wrap lines that are too long
 set nowrap
 
-" Shortcut to rapidly toggle `set list`
-nmap <leader>l :set list!<CR>
-
-" Use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\ ,eol:¬
-
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufRead *.json :set ft=javascript
 
@@ -68,21 +62,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " remap enter/shift-enter to insert blank lines
 map <S-Enter> O<Esc>
 map <CR> o<Esc>
-
-" map leader-a to open a vertical split of the alternate file
-map <leader>a :AV<CR>
-
-" Maps for jj to act as Esc
-ino jj <esc>
-cno jj <c-c>
-
-" Replace current line with buffer contents via ctrl-p
-nmap <C-p> "_ddP
-vmap <C-p> "_dP
-
-" Paste into a new line above or below
-map å o<C-R>"<Esc>
-map Å O<C-R>"<Esc>
 
 " allow switching away from buffers that have changes
 set hidden
