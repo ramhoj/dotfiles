@@ -42,6 +42,7 @@ autocmd BufRead *.json :set ft=javascript
 " leader is set to the dash key, as it is much friendlier on a swedish
 " keyboard
 let mapleader = "-"
+autocmd BufRead *.serenade :set ft=slim
 
 " don't ever create swap files, they're annoying!
 set nobackup
