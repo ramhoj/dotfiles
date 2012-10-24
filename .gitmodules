@@ -64,3 +64,9 @@
 [submodule "link/vim/bundles/ctrlp"]
 	path = link/vim/bundles/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "link/vim/bundles/snipmate.vim"]
+	path = link/vim/bundles/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "link/vim/bundles/snipmate-rubymotion"]
+	path = link/vim/bundles/snipmate-rubymotion
+	url = git://github.com/rcyrus/snipmate-snippets-rubymotion.git
