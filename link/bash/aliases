@@ -21,3 +21,8 @@ alias tails="tail -n 400 -f"
 
 # bundle exec
 alias b="bundle exec"
+
+# check for presence of hub, if so use it instead of git
+type hub >/dev/null 2>&1 && {
+  alias git="hub"
+}
