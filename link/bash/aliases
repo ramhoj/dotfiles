@@ -26,3 +26,9 @@ alias b="bundle exec"
 type hub >/dev/null 2>&1 && {
   alias git="hub"
 }
+
+# zeus shortcuts
+alias zr="zeus rspec"
+alias zc="zeus console"
+alias zk="zeus rake"
+alias zg="zeus generate"
