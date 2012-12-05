@@ -68,3 +68,5 @@ map <CR> o<Esc>
 
 " allow switching away from buffers that have changes
 set hidden
+
+let g:ctrlp_cmd = 'CtrlPMRU'
