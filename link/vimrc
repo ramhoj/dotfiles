@@ -5,7 +5,7 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
-set guifont=Monaco:h16
+set guifont=Monaco:h18
 
 " Explicitly set 256 color support
 set t_Co=256

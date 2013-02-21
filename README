@@ -9,6 +9,12 @@ Installation
   source ~/.bash_profile
   # edit ~/.gitconfig and personalize it
 
+Submodules
+
+The vim plugins/syntax files come as git submodules. To initiate do the following:
+
+  git submodule init
+  git submodule update
 
 Environment
 
@@ -16,7 +22,6 @@ If you would like to switch to zsh, you can do so with
 the following command.
 
   chsh -s /bin/zsh
-
 
 Features
 
