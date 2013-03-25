@@ -62,10 +62,6 @@ set incsearch
 " clear highlighted matches with space
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
-" remap enter/shift-enter to insert blank lines
-map <S-Enter> O<Esc>
-map <CR> o<Esc>
-
 " allow switching away from buffers that have changes
 set hidden
 
