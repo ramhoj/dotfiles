@@ -39,11 +39,11 @@ set nowrap
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufRead *.json :set ft=javascript
 autocmd BufRead *.jbuilder :set ft=ruby
+autocmd BufRead *.serenade :set ft=slim
 
 " leader is set to the dash key, as it is much friendlier on a swedish
 " keyboard
 let mapleader = "-"
-autocmd BufRead *.serenade :set ft=slim
 
 " don't ever create swap files, they're annoying!
 set nobackup
