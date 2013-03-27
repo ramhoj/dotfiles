@@ -41,6 +41,9 @@ autocmd BufRead *.json :set ft=javascript
 autocmd BufRead *.jbuilder :set ft=ruby
 autocmd BufRead *.serenade :set ft=slim
 
+autocmd BufRead,BufNewFile *.py set shiftwidth=4
+autocmd BufRead,BufNewFile *.py set tabstop=4
+
 " leader is set to the dash key, as it is much friendlier on a swedish
 " keyboard
 let mapleader = "-"
