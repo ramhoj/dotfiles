@@ -29,6 +29,9 @@ nnoremap <D-up> :resize -5<cr>
 nnoremap <D-down> :resize +5<cr>
 nnoremap <D-left> :vertical resize -5<cr>
 
+" dispatch.vim keybinding
+nnoremap <F9> :Dispatch<CR>
+
 " line numbers
 set number
 set numberwidth=3

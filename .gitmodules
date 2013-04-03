@@ -79,3 +79,6 @@
 [submodule "link/vim/bundles/vim-clojure-static"]
 	path = link/vim/bundles/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "link/vim/bundles/vim-dispatch.git"]
+	path = link/vim/bundles/vim-dispatch.git
+	url = git://github.com/tpope/vim-dispatch.git
