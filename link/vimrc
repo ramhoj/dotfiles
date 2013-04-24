@@ -81,3 +81,8 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 set nohidden
 
 let g:ctrlp_cmd = 'CtrlPMRU'
+
+syntax enable
+let g:solarized_termcolors=256
+colorscheme solarized
+set background=dark
