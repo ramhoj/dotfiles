@@ -76,6 +76,7 @@ set incsearch
 
 " clear highlighted matches with space
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+nnoremap <C-s> :w<CR>
 
 " allow switching away from buffers that have changes
 set nohidden
