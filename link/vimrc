@@ -87,3 +87,6 @@ syntax enable
 let g:solarized_termcolors=256
 colorscheme solarized
 set background=dark
+
+" user the silver searcher for faster and better Ack searches
+let g:ackprg = 'ag --nogroup --nocolor --column'
