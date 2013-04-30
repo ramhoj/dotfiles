@@ -82,3 +82,6 @@
 [submodule "link/vim/bundles/vim-dispatch.git"]
 	path = link/vim/bundles/vim-dispatch.git
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "link/vim/bundles/rename.vim"]
+	path = link/vim/bundles/rename.vim
+	url = git@github.com:elabs/dotfiles.git
