@@ -85,3 +85,6 @@
 [submodule "link/vim/bundles/rename.vim"]
 	path = link/vim/bundles/rename.vim
 	url = git@github.com:elabs/dotfiles.git
+[submodule "link/vim/bundles/ragel.vim"]
+	path = link/vim/bundles/ragel.vim
+	url = https://github.com/jayferd/ragel.vim
