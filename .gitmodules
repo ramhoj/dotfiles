@@ -88,3 +88,6 @@
 [submodule "link/vim/bundles/vim-ragel"]
 	path = link/vim/bundles/vim-ragel
 	url = https://github.com/msteinert/vim-ragel
+[submodule "link/vim/bundles/vim-ruby"]
+	path = link/vim/bundles/vim-ruby
+	url = git@github.com:Burgestrand/vim-ruby.git
