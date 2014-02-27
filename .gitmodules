@@ -28,9 +28,6 @@
 [submodule "link/vim/bundles/nerdtree"]
 	path = link/vim/bundles/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "link/vim/bundles/nerdcommenter"]
-	path = link/vim/bundles/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "link/vim/bundles/vim-ragtag"]
 	path = link/vim/bundles/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
