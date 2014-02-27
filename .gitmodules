@@ -84,7 +84,7 @@
 	url = git://github.com/tpope/vim-dispatch.git
 [submodule "link/vim/bundles/rename.vim"]
 	path = link/vim/bundles/rename.vim
-	url = git@github.com:elabs/dotfiles.git
+	url = git://github.com/danro/rename.vim.git
 [submodule "link/vim/bundles/vim-ragel"]
 	path = link/vim/bundles/vim-ragel
 	url = https://github.com/msteinert/vim-ragel
