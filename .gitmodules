@@ -91,3 +91,6 @@
 [submodule "link/vim/bundles/vim-ruby"]
 	path = link/vim/bundles/vim-ruby
 	url = git@github.com:Burgestrand/vim-ruby.git
+[submodule "link/vim/bundles/vim-commentary"]
+	path = link/vim/bundles/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
