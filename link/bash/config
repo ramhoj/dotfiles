@@ -4,7 +4,7 @@ export LSCOLORS='ExFxcxdxBxegedabagacad'
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="7;33"
 
-export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
+export JAVA_HOME="$(/usr/libexec/java_home)"
 export JRUBY_OPTS='-J-XX:MaxPermSize=256m -J-Xmx2g'
 
 export AWSM_TEST_NOMIGRATE="true"
