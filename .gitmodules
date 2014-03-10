@@ -28,9 +28,6 @@
 [submodule "link/vim/bundles/nerdtree"]
 	path = link/vim/bundles/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "link/vim/bundles/nerdcommenter"]
-	path = link/vim/bundles/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "link/vim/bundles/vim-ragtag"]
 	path = link/vim/bundles/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
@@ -82,3 +79,15 @@
 [submodule "link/vim/bundles/vim-dispatch.git"]
 	path = link/vim/bundles/vim-dispatch.git
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "link/vim/bundles/rename.vim"]
+	path = link/vim/bundles/rename.vim
+	url = git://github.com/danro/rename.vim.git
+[submodule "link/vim/bundles/vim-ragel"]
+	path = link/vim/bundles/vim-ragel
+	url = https://github.com/msteinert/vim-ragel
+[submodule "link/vim/bundles/vim-ruby"]
+	path = link/vim/bundles/vim-ruby
+	url = git@github.com:Burgestrand/vim-ruby.git
+[submodule "link/vim/bundles/vim-commentary"]
+	path = link/vim/bundles/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git

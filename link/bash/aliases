@@ -27,6 +27,10 @@ type hub >/dev/null 2>&1 && {
   alias git="hub"
 }
 
+# git shortcut
+alias g="git"
+alias gi="ghi"
+
 # zeus shortcuts
 alias zr="zeus rspec"
 alias zc="zeus console"
