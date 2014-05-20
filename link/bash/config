@@ -12,4 +12,6 @@ export AWSM_FRAMEWORK="rails"
 
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/opt/curl/lib"
 
+export DOCKER_HOST=tcp://127.0.0.1:4243
+
 stty -ixon
