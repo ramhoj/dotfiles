@@ -91,3 +91,6 @@
 [submodule "link/vim/bundles/vim-commentary"]
 	path = link/vim/bundles/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "link/vim/bundles/Dockerfile.vim"]
+	path = link/vim/bundles/Dockerfile.vim
+	url = git@github.com:ekalinin/Dockerfile.vim.git
