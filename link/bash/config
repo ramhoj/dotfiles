@@ -1,15 +1,20 @@
 export PS1='\[\e[1;31m\]\w\[\e[1;32m\]$(__git_ps1 "(%s)")\[\e[m\]\$ '
-export EDITOR="mate -w"
+export EDITOR="vi"
 export LSCOLORS='ExFxcxdxBxegedabagacad'
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="7;33"
 
-export JAVA_HOME="$(/usr/libexec/java_home)"
+export JAVA_HOME=$(/usr/libexec/java_home)
 export JRUBY_OPTS='-J-XX:MaxPermSize=256m -J-Xmx2g'
 
 export AWSM_TEST_NOMIGRATE="true"
 export AWSM_FRAMEWORK="rails"
 
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/opt/curl/lib"
+export HISTCONTROL=ignoreboth:erasedups
+
+export DOCKER_HOST=tcp://127.0.0.1:4243
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
 
 stty -ixon
