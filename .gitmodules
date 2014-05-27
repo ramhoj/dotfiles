@@ -91,3 +91,6 @@
 [submodule "link/vim/bundles/vim-commentary"]
 	path = link/vim/bundles/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = git@github.com:wting/rust.vim.git
