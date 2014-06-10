@@ -1,0 +1,16 @@
+---
+jonas:
+  :name: Jonas Nicklas
+  :email: jonas.nicklas@gmail.com
+ivan:
+  :name: Ivan Navarrete
+  :email: ivannavarrete@elabs.se
+kim:
+  :name: Kim Burgestrand
+  :email: kim@burgestrand.se
+kim_elabs:
+  :name: Kim Burgestrand
+  :email: kim@elabs.se
+jonas_kim:
+  :name: Jonas Nicklas and Kim Burgestrand
+  :email: dev+jnicklas+burgestrand@elabs.se
