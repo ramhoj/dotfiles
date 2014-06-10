@@ -6,3 +6,6 @@
 [[ -f ~/.localrc ]] && .  ~/.localrc
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# added by travis gem
+[ -f /Users/dev/.travis/travis.sh ] && source /Users/dev/.travis/travis.sh
