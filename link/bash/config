@@ -13,7 +13,8 @@ export AWSM_FRAMEWORK="rails"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/opt/curl/lib"
 export HISTCONTROL=ignoreboth:erasedups
 
-export DOCKER_HOST=tcp://127.0.0.1:4243
+export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
+
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:./node_modules/.bin
