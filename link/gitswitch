@@ -20,3 +20,33 @@ cenny_jonas:
 kim_robin:
   :name: Kim Burgestrand and Robin Rundkvist
   :email: dev+burgestrand+karlrobin@elabs.se
+kim_thunderbolt:
+  :email: kim.burgestrand@thunderboltlabs.com
+  :name: Kim Burgestrand
+antony_kim:
+  :email: dev+antonysastre+burgestrand@elabs.se
+  :name: Antony Sastre and Kim Burgestrand
+james_kim:
+  :email: dev+jameskyburz+burgestrand@elabs.se
+  :name: James Kyburz and Kim Burgestrand
+nicklas:
+  :name: Nicklas Ramhöj
+  :email: nicklas@elabs.se
+ivan_kim:
+  :name: Ivan Navarrete and Kim Burgestrand
+  :email: dev+ivannavarrete+burgestrand@elabs.se
+andersc_ivan:
+  :name: Anders Carlsson and Ivan Navarrete
+  :email: dev+ankor+ivannavarrete@elabs.se
+andersc_emanuel:
+  :name: Anders Carlsson and Emanuel Andersson
+  :email: dev+ankor+emnl@elabs.se
+emanuel_kim:
+  :name: Emanuel Andersson and Kim Burgestrand
+  :email: dev+emnl+burgestrand@elabs.se
+ivan_jonas:
+  :name: Ivan Navarrete and Jonas Nicklas
+  :email: dev+ivannavarrete+jnicklas@elabs.se
+jonas_lisa:
+  :name: Jonas Nicklas and Lisa Hammarström
+  :email: dev+jnicklas+lisarut@elabs.se
