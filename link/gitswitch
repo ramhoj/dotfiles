@@ -14,3 +14,9 @@ kim_elabs:
 jonas_kim:
   :name: Jonas Nicklas and Kim Burgestrand
   :email: dev+jnicklas+burgestrand@elabs.se
+cenny_jonas:
+  :name: Cenny Davidsson and Jonas Nicklas
+  :email: dev+cennydavidsson+jnicklas@elabs.se
+kim_robin:
+  :name: Kim Burgestrand and Robin Rundkvist
+  :email: dev+burgestrand+karlrobin@elabs.se
