@@ -1,5 +1,8 @@
 call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundles'))
 
+set exrc " enable per-directory .vimrc files
+set secure " disable unsafe commands in local .vimrc files
+
 set tabstop=2
 set smarttab
 set shiftwidth=2
