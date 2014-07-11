@@ -90,3 +90,9 @@ set background=dark
 
 " use the silver searcher for faster and better Ack searches
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" enable per-directory .vimrc files
+set exrc
+
+" disable unsafe commands in local .vimrc files
+set secure
