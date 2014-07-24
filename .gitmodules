@@ -28,9 +28,6 @@
 [submodule "link/vim/bundles/nerdtree"]
 	path = link/vim/bundles/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "link/vim/bundles/nerdcommenter"]
-	path = link/vim/bundles/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "link/vim/bundles/vim-ragtag"]
 	path = link/vim/bundles/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
@@ -84,7 +81,7 @@
 	url = git://github.com/tpope/vim-dispatch.git
 [submodule "link/vim/bundles/rename.vim"]
 	path = link/vim/bundles/rename.vim
-	url = git@github.com:elabs/dotfiles.git
+	url = git://github.com/danro/rename.vim.git
 [submodule "link/vim/bundles/vim-ragel"]
 	path = link/vim/bundles/vim-ragel
 	url = https://github.com/msteinert/vim-ragel
@@ -97,3 +94,18 @@
 [submodule "link/vim/bundles/dash.vim"]
 	path = link/vim/bundles/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "link/vim/bundles/vim-commentary"]
+	path = link/vim/bundles/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = git@github.com:wting/rust.vim.git
+[submodule "link/vim/bundles/Dockerfile.vim"]
+	path = link/vim/bundles/Dockerfile.vim
+	url = git@github.com:ekalinin/Dockerfile.vim.git
+[submodule "link/vim/bundles/vim-go"]
+	path = link/vim/bundles/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "link/vim/bundles/projections.vim"]
+	path = link/vim/bundles/projections.vim
+	url = https://github.com/malkomalko/projections.vim.git

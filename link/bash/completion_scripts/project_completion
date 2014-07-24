@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+# Shebang above ignores env on purpose, in case you are using
+# JRuby currently this command is otherwise *super* slow.
 
 class ProjectCompletion
   PROJECT_DIR = "~/Projects"
@@ -6,17 +8,17 @@ class ProjectCompletion
   def initialize(command)
     @command = command
   end
-  
+
   def matches
     projects.select do |task|
       task[0, typed.length] == typed
     end
   end
-  
+
   def typed
     @command[/\s(.+?)$/, 1] || ''
   end
-  
+
   def projects
     `ls #{PROJECT_DIR}/`.split
   end
