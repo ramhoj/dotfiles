@@ -109,3 +109,6 @@
 [submodule "link/vim/bundles/projections.vim"]
 	path = link/vim/bundles/projections.vim
 	url = https://github.com/malkomalko/projections.vim.git
+[submodule "link/vim/bundles/tagbar"]
+	path = link/vim/bundles/tagbar
+	url = git@github.com:majutsushi/tagbar.git
