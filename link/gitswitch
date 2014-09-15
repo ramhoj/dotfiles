@@ -53,3 +53,6 @@ jonas_lisa:
 kim_lisa:
   :name: Kim Burgestrand and Lisa Hammarström
   :email: dev+burgestrand+lisarutan@elabs.se
+kim_nicklas:
+  :name: Kim Burgestrand and Nicklas Ramhöj
+  :email: dev+burgestrand+ramhoj@elabs.se
