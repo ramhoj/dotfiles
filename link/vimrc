@@ -7,8 +7,10 @@ set autoindent
 set expandtab
 set tags=tags
 
-set background=light
+syntax enable
+set background=dark
 colorscheme solarized
+
 set guifont=Monaco:h14
 
 " Explicitly set 256 color support
