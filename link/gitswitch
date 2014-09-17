@@ -13,7 +13,7 @@ ivan_lisa:
   :email: dev+ivannavarrete+lisarutan@elabs.se
 ivan:
   :name: Ivan Navarrete
-  :email: dev+ivannavarrete@elabs.se
+  :email: ivannavarrete@elabs.se
 lisa:
   :name: Lisa Hammarström
   :email: dev+lisarutan@elabs.se
@@ -23,15 +23,6 @@ lisa_cenny:
 jonas:
   :name: Jonas Nicklas
   :email: jonas.nicklas@gmail.com
-ivan:
-  :name: Ivan Navarrete
-  :email: ivannavarrete@elabs.se
-kim:
-  :name: Kim Burgestrand
-  :email: kim@burgestrand.se
-kim_elabs:
-  :name: Kim Burgestrand
-  :email: kim@elabs.se
 jonas_kim:
   :name: Jonas Nicklas and Kim Burgestrand
   :email: dev+jnicklas+burgestrand@elabs.se
@@ -71,9 +62,6 @@ ivan_jonas:
 jonas_lisa:
   :name: Jonas Nicklas and Lisa Hammarström
   :email: dev+jnicklas+lisarut@elabs.se
-kim_lisa:
-  :name: Kim Burgestrand and Lisa Hammarström
-  :email: dev+burgestrand+lisarutan@elabs.se
 kim_nicklas:
   :name: Kim Burgestrand and Nicklas Ramhöj
   :email: dev+burgestrand+ramhoj@elabs.se
