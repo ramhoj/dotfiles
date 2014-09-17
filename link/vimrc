@@ -5,9 +5,12 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
+set tags=tags
 
-set background=light
+syntax enable
+set background=dark
 colorscheme solarized
+
 set guifont=Monaco:h14
 
 " Explicitly set 256 color support
@@ -90,3 +93,9 @@ set background=dark
 
 " use the silver searcher for faster and better Ack searches
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" enable per-directory .vimrc files
+set exrc
+
+" disable unsafe commands in local .vimrc files
+set secure
