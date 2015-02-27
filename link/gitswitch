@@ -65,3 +65,12 @@ jonas_lisa:
 kim_nicklas:
   :name: Kim Burgestrand and Nicklas Ramhöj
   :email: dev+burgestrand+ramhoj@elabs.se
+anders_nicklas:
+  :name: Anders Clarsson and Nicklas Ramhöj
+  :email: dev+ankor+ramhoj@elabs.se
+andersc:
+  :name: Anders Carlsson
+  :email: andersc@elabs.se
+anders_kim:
+  :name: Anders Carlsson and Kim Burgestrand
+  :email: dev+ankor+burgestrand@elabs.se
