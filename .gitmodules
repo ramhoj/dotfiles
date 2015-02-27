@@ -109,3 +109,6 @@
 [submodule "link/vim/bundles/tagbar"]
 	path = link/vim/bundles/tagbar
 	url = git@github.com:majutsushi/tagbar.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
