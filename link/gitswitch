@@ -66,7 +66,7 @@ kim_nicklas:
   :name: Kim Burgestrand and Nicklas Ramhöj
   :email: dev+burgestrand+ramhoj@elabs.se
 anders_nicklas:
-  :name: Anders Clarsson and Nicklas Ramhöj
+  :name: Anders Carlsson and Nicklas Ramhöj
   :email: dev+ankor+ramhoj@elabs.se
 andersc:
   :name: Anders Carlsson
@@ -74,3 +74,15 @@ andersc:
 anders_kim:
   :name: Anders Carlsson and Kim Burgestrand
   :email: dev+ankor+burgestrand@elabs.se
+lisa_nicklas:
+  :name: Lisa Hammarström and Nicklas Ramhöj
+  :email: dev+lisarutan+ramhoj@elabs.se
+ivan_nicklas:
+  :name: Ivan Navarrete and Nicklas Ramhöj
+  :email: dev+ivannavarrete+ramhoj@elabs.se
+jonas_nicklas:
+  :name: Jonas Nicklas and Nicklas Ramhöj
+  :email: dev+jnicklas+ramhoj@elabs.se
+andersc_nicklas_ivan:
+  :name: Anders Carlsson, Ivan Navarrete, and Nicklas Ramhöj
+  :email: dev+ankor+ivannavarrete+ramhoj@elabs.se
