@@ -97,9 +97,6 @@
 [submodule "link/vim/bundles/vim-commentary"]
 	path = link/vim/bundles/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
-[submodule "link/vim/bundles/rust.vim"]
-	path = link/vim/bundles/rust.vim
-	url = git@github.com:wting/rust.vim.git
 [submodule "link/vim/bundles/Dockerfile.vim"]
 	path = link/vim/bundles/Dockerfile.vim
 	url = git@github.com:ekalinin/Dockerfile.vim.git
@@ -112,3 +109,6 @@
 [submodule "link/vim/bundles/tagbar"]
 	path = link/vim/bundles/tagbar
 	url = git@github.com:majutsushi/tagbar.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

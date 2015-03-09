@@ -14,13 +14,25 @@ export AWSM_FRAMEWORK="rails"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/opt/curl/lib"
 export HISTCONTROL=ignoreboth:erasedups
 
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=$HOME/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
-
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/share/npm/bin
 export PATH=$PATH:./node_modules/.bin
+function run_failures {
+  pbpaste | awk '{ print $2 }' | xargs rspec
+}
+export -f run_failures
+
+function ip {
+  ip=$(ipconfig getifaddr en0);
+  echo $ip | tr -d '\n' | pbcopy;
+  echo $ip
+}
+export -f ip
+
+type boot2docker >/dev/null 2>&1 && {
+  $(boot2docker shellinit 2>/dev/null)
+}
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
