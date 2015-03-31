@@ -84,8 +84,6 @@ nnoremap <C-s> :w<CR>
 " allow switching away from buffers that have changes
 set nohidden
 
-let g:ctrlp_cmd = 'CtrlPMRU'
-
 syntax enable
 let g:solarized_termcolors=256
 colorscheme solarized
@@ -93,6 +91,9 @@ set background=dark
 
 " use the silver searcher for faster and better Ack searches
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" Make ctrlp ignore ignored files, see https://github.com/kien/ctrlp.vim/issues/174
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " enable per-directory .vimrc files
 set exrc
