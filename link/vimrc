@@ -99,3 +99,7 @@ set exrc
 
 " disable unsafe commands in local .vimrc files
 set secure
+
+" move in quickfix list, useful with Ack.vim
+nnoremap gcn :cn<CR>
+nnoremap gcp :cp<CR>
