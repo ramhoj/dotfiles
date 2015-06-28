@@ -115,3 +115,6 @@
 [submodule "link/vim/bundles/vim-cjsx"]
 	path = link/vim/bundles/vim-cjsx
 	url = https://github.com/mtscout6/vim-cjsx.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
