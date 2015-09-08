@@ -33,6 +33,10 @@ type boot2docker >/dev/null 2>&1 && {
   $(boot2docker shellinit 2>/dev/null)
 }
 
+type docker-machine > /dev/null 2>&1 && {
+  eval $(docker-machine env default)
+}
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 stty -ixon
