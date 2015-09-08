@@ -107,3 +107,6 @@ set secure
 " move in quickfix list, useful with Ack.vim
 nnoremap gcn :cn<CR>
 nnoremap gcp :cp<CR>
+
+" Disable Ex mode. Fuck off.
+nnoremap Q <nop>
