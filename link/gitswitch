@@ -1,0 +1,88 @@
+---
+kim_elabs:
+  :name: Kim Burgestrand
+  :email: kim@elabs.se
+kim:
+  :name: Kim Burgestrand
+  :email: kim@burgestrand.se
+kim_lisa:
+  :name: Kim Burgestrand and Lisa Hammarström
+  :email: dev+burgestrand+lisarutan@elabs.se
+ivan_lisa:
+  :name: Ivan Navarrete and Lisa Hammarström
+  :email: dev+ivannavarrete+lisarutan@elabs.se
+ivan:
+  :name: Ivan Navarrete
+  :email: ivannavarrete@elabs.se
+lisa:
+  :name: Lisa Hammarström
+  :email: dev+lisarutan@elabs.se
+lisa_cenny:
+  :name: Lisa Hammarström and Cenny Davidsson
+  :email: dev+lisa@elabs.se cenny@me.com
+jonas:
+  :name: Jonas Nicklas
+  :email: jonas.nicklas@gmail.com
+jonas_kim:
+  :name: Jonas Nicklas and Kim Burgestrand
+  :email: dev+jnicklas+burgestrand@elabs.se
+cenny_jonas:
+  :name: Cenny Davidsson and Jonas Nicklas
+  :email: dev+cennydavidsson+jnicklas@elabs.se
+kim_robin:
+  :name: Kim Burgestrand and Robin Rundkvist
+  :email: dev+burgestrand+karlrobin@elabs.se
+kim_thunderbolt:
+  :email: kim.burgestrand@thunderboltlabs.com
+  :name: Kim Burgestrand
+antony_kim:
+  :email: dev+antonysastre+burgestrand@elabs.se
+  :name: Antony Sastre and Kim Burgestrand
+james_kim:
+  :email: dev+jameskyburz+burgestrand@elabs.se
+  :name: James Kyburz and Kim Burgestrand
+nicklas:
+  :name: Nicklas Ramhöj
+  :email: nicklas@elabs.se
+ivan_kim:
+  :name: Ivan Navarrete and Kim Burgestrand
+  :email: dev+ivannavarrete+burgestrand@elabs.se
+andersc_ivan:
+  :name: Anders Carlsson and Ivan Navarrete
+  :email: dev+ankor+ivannavarrete@elabs.se
+andersc_emanuel:
+  :name: Anders Carlsson and Emanuel Andersson
+  :email: dev+ankor+emnl@elabs.se
+emanuel_kim:
+  :name: Emanuel Andersson and Kim Burgestrand
+  :email: dev+emnl+burgestrand@elabs.se
+ivan_jonas:
+  :name: Ivan Navarrete and Jonas Nicklas
+  :email: dev+ivannavarrete+jnicklas@elabs.se
+jonas_lisa:
+  :name: Jonas Nicklas and Lisa Hammarström
+  :email: dev+jnicklas+lisarut@elabs.se
+kim_nicklas:
+  :name: Kim Burgestrand and Nicklas Ramhöj
+  :email: dev+burgestrand+ramhoj@elabs.se
+anders_nicklas:
+  :name: Anders Carlsson and Nicklas Ramhöj
+  :email: dev+ankor+ramhoj@elabs.se
+andersc:
+  :name: Anders Carlsson
+  :email: andersc@elabs.se
+anders_kim:
+  :name: Anders Carlsson and Kim Burgestrand
+  :email: dev+ankor+burgestrand@elabs.se
+lisa_nicklas:
+  :name: Lisa Hammarström and Nicklas Ramhöj
+  :email: dev+lisarutan+ramhoj@elabs.se
+ivan_nicklas:
+  :name: Ivan Navarrete and Nicklas Ramhöj
+  :email: dev+ivannavarrete+ramhoj@elabs.se
+jonas_nicklas:
+  :name: Jonas Nicklas and Nicklas Ramhöj
+  :email: dev+jnicklas+ramhoj@elabs.se
+andersc_nicklas_ivan:
+  :name: Anders Carlsson, Ivan Navarrete, and Nicklas Ramhöj
+  :email: dev+ankor+ivannavarrete+ramhoj@elabs.se

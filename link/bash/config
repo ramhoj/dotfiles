@@ -3,13 +3,45 @@ export EDITOR="atom"
 export LSCOLORS='ExFxcxdxBxegedabagacad'
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="7;33"
+export HISTCONTROL=ignoreboth # ignore duplicate bash history
 
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export JRUBY_OPTS='-J-Xmx2g'
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 export AWSM_TEST_NOMIGRATE="true"
 export AWSM_FRAMEWORK="rails"
 
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/opt/curl/lib"
+export HISTCONTROL=ignoreboth:erasedups
 
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/share/npm/bin
+export PATH=$PATH:./node_modules/.bin
+function run_failures {
+  pbpaste | awk '{ print $2 }' | xargs rspec
+}
+export -f run_failures
+
+function ip {
+  ip=$(ipconfig getifaddr en0);
+  echo $ip | tr -d '\n' | pbcopy;
+  echo $ip
+}
+export -f ip
+
+type boot2docker >/dev/null 2>&1 && {
+  $(boot2docker shellinit 2>/dev/null)
+}
+
+type docker-machine > /dev/null 2>&1 && {
+  eval $(docker-machine env default)
+}
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 stty -ixon
+
+export NVM_DIR=~/.nvm
+if [ -e $NVM_DIR/nvm-exec ]; then
+  source $(brew --prefix nvm)/nvm.sh
+fi

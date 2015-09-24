@@ -88,6 +88,33 @@
 [submodule "link/vim/bundles/vim-ruby"]
 	path = link/vim/bundles/vim-ruby
 	url = git@github.com:Burgestrand/vim-ruby.git
+[submodule "link/vim/bundles/funcoo.vim"]
+	path = link/vim/bundles/funcoo.vim
+	url = https://github.com/rizzatti/funcoo.vim.git
+[submodule "link/vim/bundles/dash.vim"]
+	path = link/vim/bundles/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
 [submodule "link/vim/bundles/vim-commentary"]
 	path = link/vim/bundles/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "link/vim/bundles/Dockerfile.vim"]
+	path = link/vim/bundles/Dockerfile.vim
+	url = git@github.com:ekalinin/Dockerfile.vim.git
+[submodule "link/vim/bundles/vim-go"]
+	path = link/vim/bundles/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "link/vim/bundles/projections.vim"]
+	path = link/vim/bundles/projections.vim
+	url = https://github.com/malkomalko/projections.vim.git
+[submodule "link/vim/bundles/tagbar"]
+	path = link/vim/bundles/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "link/vim/bundles/vim-elixir"]
+	path = link/vim/bundles/vim-elixir
+	url = git@github.com:elixir-lang/vim-elixir.git
+[submodule "link/vim/bundles/vim-cjsx"]
+	path = link/vim/bundles/vim-cjsx
+	url = https://github.com/mtscout6/vim-cjsx.git
+[submodule "link/vim/bundles/rust.vim"]
+	path = link/vim/bundles/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

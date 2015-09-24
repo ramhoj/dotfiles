@@ -1,6 +1,6 @@
 set guicursor=a:blinkon0
 set guifont=Monaco:h14
-set background=light
+set background=dark
 
 " Disable toolbar on startup
 set guioptions-=T
