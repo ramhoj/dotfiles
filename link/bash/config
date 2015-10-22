@@ -5,6 +5,9 @@ export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="7;33"
 export HISTCONTROL=ignoreboth # ignore duplicate bash history
 
+export CARGO_INSTALL_ROOT=~/.cargo
+export PATH=$PATH:$CARGO_INSTALL_ROOT/bin
+
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export AWSM_TEST_NOMIGRATE="true"
