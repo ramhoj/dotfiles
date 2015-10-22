@@ -56,6 +56,7 @@ set nowrap
 
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufRead *.json :set ft=javascript
+autocmd BufRead *.es6 :set ft=javascript
 autocmd BufRead *.jbuilder :set ft=ruby
 autocmd BufRead *.serenade :set ft=slim
 
