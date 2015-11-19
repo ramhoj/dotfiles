@@ -48,3 +48,7 @@ export NVM_DIR=~/.nvm
 if [ -e $NVM_DIR/nvm-exec ]; then
   source $(brew --prefix nvm)/nvm.sh
 fi
+
+function trash() {
+  mv $1 ~/.Trash
+}
