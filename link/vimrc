@@ -86,7 +86,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <C-s> :w<CR>
 
 " allow switching away from buffers that have changes
-set nohidden
+set hidden
 
 syntax enable
 let g:solarized_termcolors=256
