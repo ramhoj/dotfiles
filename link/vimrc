@@ -123,6 +123,8 @@ set background=dark
 " use the silver searcher for faster and better Ack searches
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+nnoremap g* *:AckFromSearch<CR>
+
 " move in quickfix list, useful with Ack.vim
 nnoremap gcn :cn<CR>
 nnoremap gcp :cp<CR>
