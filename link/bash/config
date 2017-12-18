@@ -12,10 +12,6 @@ function ip {
 }
 export -f ip
 
-type docker-machine > /dev/null 2>&1 && {
-  eval $(docker-machine env default)
-}
-
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 stty -ixon
