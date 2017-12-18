@@ -30,7 +30,7 @@ This should pop open a window and install all plugins.
 Install git and bash its bash completion:
 
 ```
-brew install git bash_completion
+brew install git bash-completion
 ```
 
 ## Project navigation

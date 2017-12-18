@@ -2,6 +2,7 @@ source ~/.bash/aliases
 source ~/.bash/completions
 source ~/.bash/paths
 source ~/.bash/config
+source ~/.git-prompt.sh
 
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
@@ -14,3 +15,4 @@ fi
 if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
+export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
