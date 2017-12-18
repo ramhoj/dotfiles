@@ -13,6 +13,14 @@ run:
 This will symlink dotfiles from your homedirectory to your checkout of this
 repo, allowing you to modify and commit to these files easily.
 
+## PS and bash completion
+
+Install git and bash its bash completion:
+
+```
+brew install git bash-completion
+```
+
 ## Vim
 
 We're using [vim-plug](https://github.com/junegunn/vim-plug) for plugin
@@ -24,14 +32,6 @@ run:
 ```
 
 This should pop open a window and install all plugins.
-
-## PS and bash completion
-
-Install git and bash its bash completion:
-
-```
-brew install git bash-completion
-```
 
 ## Project navigation
 
