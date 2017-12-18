@@ -26,10 +26,10 @@
 [pull]
 	rebase = true
 [partners]
-	current = jonas
+	current = nicklas
 [user]
-	name = Jonas Nicklas
-	email = jonas.nicklas@gmail.com
+	name = Nicklas Ramhöj
+	email = nicklas.ramhoj@varvet.com
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
